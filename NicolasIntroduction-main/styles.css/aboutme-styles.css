@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(44, 42, 42);
+    text-align: center;
+}
+
+
+header #headerText {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    height: 10000%;
+    min-height: 100%;
+    margin: auto;
+    font-size: 140%;
+    padding-bottom: 2%;
+    background-color: white;
+
+}
+header #logo{
+    width: 5%;
+    display: block;
+    float: left;
+}
+nav ul {
+    font-size: 26px;
+    background-color: rgb(29, 24, 24);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-flex;
+    margin: 5px 0;
+    padding: 1px 0;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 10px;
+    width: 150px;
+}
+
+.image {
+    background-image: url(https://play-lh.googleusercontent.com/vu7OqmzkBpDFHJJSZQrVjWfEoVPAfdf2NppWN-49x5hpmvQEqWcBQV4hVnzxy9_4=w2560-h1440-rw);
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    height: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow: auto;
+}
+
+main .mainColumn {
+    width: 40%;
+    float: left;
+    height: 100%;
+    min-height: 100%;
+    text-align: center;
+    padding: 5%;
+    font-size: 200%;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.674);
+    display: block;
+    min-height: 100vh;
+    height: 100%;
+    overflow: auto;
+    margin: auto;
+}
